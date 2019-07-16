@@ -1,0 +1,53 @@
+\t (00:01:56) allegro 16.6 S034 (v16-6-112CQ) Windows 32
+\t (00:01:56)     Journal start - Tue Jul 16 17:25:44 2019
+\t (00:01:56)         Host=USER-PC User=user Pid=12164 CPUs=4
+\t (00:01:56) CmdLine= C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\pcb\bin\allegro.exe -orcad -mpssession user C:\USERS\USER\DESKTOP\WORK\ATMEGA328\allegro\ATMEGA328.brd
+\t (00:01:56) 
+\d (00:01:56) Design opened: C:/Users/user/Desktop/work/pcb_lib/psm_atmega/my_atmega328_dip.dra
+\i (00:01:56) generaledit 
+\i (00:02:01) prepopup -1.389 14.887
+\i (00:02:04) pick grid 0.476 17.435
+\t (00:02:04) last pick:  0.000 17.780
+\i (00:02:04) pick grid dbl 0.476 17.435
+\t (00:02:04) last pick:  0.000 17.780
+\i (00:02:05) pick grid 16.899 13.204
+\t (00:02:05) last pick:  17.780 12.700
+\i (00:02:06) pick grid 0.340 13.022
+\t (00:02:06) last pick:  0.000 12.700
+\i (00:02:06) prepopup 0.340 13.022
+\i (00:02:08) pick grid 1.249 17.162
+\t (00:02:08) last pick:  0.000 17.780
+\i (00:02:09) prepopup 1.249 17.162
+\i (00:02:19) pick grid 22.631 11.202
+\t (00:02:19) last pick:  22.860 10.160
+\i (00:02:21) pick grid 0.749 -9.861
+\t (00:02:21) last pick:  0.000 -10.160
+\i (00:02:21) prepopup 0.749 -9.861
+\i (00:02:38) pick grid 17.490 4.060
+\t (00:02:38) last pick:  17.780 5.080
+\i (00:02:40) prepopup -0.206 16.616
+\i (00:02:42) prepopup -0.434 16.616
+\i (00:02:47) setwindow form.mini
+\i (00:02:47) FORM mini subclass SILKSCREEN_TOP 
+\i (00:02:53) setwindow pcb
+\i (00:02:53) prepopup -3.618 17.344
+\i (00:02:58) pop dyn_option_select '@:@Property edit' 
+\i (00:02:58) property edit 
+\i (00:03:00) setwindow text
+\i (00:03:00) close 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) generaledit 
+\i (00:03:10) pick grid 18.173 14.614
+\t (00:03:10) last pick:  17.780 15.240
+\i (00:03:26) prepopup -1.708 17.207
+\i (00:03:35) pick grid 20.038 13.522
+\t (00:03:35) last pick:  20.320 12.700
+\t (00:03:58) last pick:  26.043 8.382
+\w (00:03:58) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:04:00) pick grid 1.932 -9.588
+\t (00:04:00) last pick:  2.540 -10.160
+\i (00:04:01) prepopup 1.932 -9.224
+\t (00:04:50) last pick:  27.180 12.021
+\w (00:04:50) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:05:08) exit 
+\t (00:05:09)     Journal end - Tue Jul 16 17:28:56 2019
