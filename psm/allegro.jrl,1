@@ -1,87 +1,830 @@
-\t (00:01:17) allegro 16.6 S034 (v16-6-112CQ) Windows 32
-\t (00:01:17)     Journal start - Tue Jul 16 17:01:38 2019
-\t (00:01:17)         Host=USER-PC User=user Pid=11184 CPUs=4
-\t (00:01:17) CmdLine= allegro.exe -p .
-\t (00:01:17) 
-\t (00:01:17) Starting new design...
-\i (00:01:18) trapsize 1442
-\i (00:01:18) trapsize 1415
-\i (00:01:18) trapsize 1442
-\i (00:01:18) trapsize 1812
-\i (00:01:18) trapsize 2685
-\i (00:01:18) trapsize 2685
-\i (00:01:18) package symbol wizard 
-\i (00:01:19) generaledit 
-\i (00:01:20) setwindow form.sym_wizard
-\i (00:01:20) FORM sym_wizard wiz_next  
-   (00:01:20) Loading cmds.cxt 
-   (00:01:20) Loading axlcore.cxt 
-\i (00:01:22) FORM sym_wizard load_template  
-\t (00:01:22) Opening existing design...
-\i (00:01:23) fillin yes 
-\t (00:01:23) Grids are drawn 200, 200 apart for enhanced viewability.
-\i (00:01:23) setwindow pcb
-\i (00:01:23) trapsize 211
-\d (00:01:23) Design opened: C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
-\i (00:01:24) setwindow form.sym_wizard
-\i (00:01:24) FORM sym_wizard wiz_next  
-\i (00:01:27) FORM sym_wizard pack_units Millimeter 
-\i (00:01:28) FORM sym_wizard pack_units_create Millimeter 
-\i (00:01:29) FORM sym_wizard wiz_next  
-\i (00:04:38) FORM sym_wizard dip_pin_count 28 
-\i (00:05:06) FORM sym_wizard dip_e1 7.200 
-\i (00:05:39) FORM sym_wizard dip_e1 7.300 
-\i (00:06:21) FORM sym_wizard dip_e1 10.000 
-\i (00:06:39) FORM sym_wizard dip_width 7.200 
-\i (00:07:18) FORM sym_wizard dip_len 34.600 
-\i (00:07:18) FORM sym_wizard wiz_next  
-\i (00:07:19) FORM sym_wizard default_pad_browse  
-\i (00:08:04) fillin "menu_cancel"
-\e (00:09:37) Command not found: xhilite
-\i (00:09:37) setwindow pcb
-\i (00:09:37) xname_flush 
-\i (00:09:37) done 
-\i (00:09:37) generaledit 
-\e (00:09:37) ERROR(SPMHDB-20): Buffer not initialized.
-\e (00:10:12) Command not found: xdehilite
-\i (00:10:12) xname_flush 
-\i (00:10:12) done 
-\i (00:10:12) generaledit 
-\e (00:10:17) Command not found: xhilite
-\i (00:10:17) xname_flush 
-\i (00:10:17) done 
-\i (00:10:17) generaledit 
-\e (00:10:20) Command not found: xdehilite
-\i (00:10:20) xname_flush 
-\i (00:10:20) done 
-\i (00:10:20) generaledit 
-\i (00:20:15) setwindow form.sym_wizard
-\i (00:20:15) FORM sym_wizard default_pad_browse  
-\i (00:20:50) fillin "Pad35cir21d"
-\i (00:20:51) FORM sym_wizard wiz_next  
-\i (00:20:52) FORM sym_wizard wiz_next  
-\i (00:20:56) FORM sym_wizard wiz_finish  
-\w (00:20:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:20:56) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
-\i (00:20:56) setwindow pcb
-\i (00:20:56) trapsize 5371
-\t (00:20:56) Performing DRC...
-\t (00:20:56) No DRC errors detected.
-\w (00:20:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:20:56) trapsize 5371
-\i (00:20:56) trapsize 284
-\i (00:20:56) trapsize 227
-\i (00:20:56) trapsize 227
-\t (00:20:56) Creating package symbol 'C:/Users/user/Desktop/work/pcb_lib/psm_atmega/my_atmega328_dip.psm'.
-\t (00:20:56) Starting Create symbol...
-\i (00:20:57) generaledit 
-\i (00:21:44) save 
-\i (00:21:47) fillin yes 
-\t (00:21:47) Symbol 'my_atmega328_dip.psm' created.
-\i (00:21:47) generaledit 
-\e (00:22:09) Command not found: xhilite
-\i (00:22:09) xname_flush 
-\i (00:22:09) done 
-\i (00:22:09) generaledit 
-\i (00:22:13) exit 
-\t (00:22:14)     Journal end - Tue Jul 16 17:22:34 2019
+\t (00:01:40) allegro 16.6 S034 (v16-6-112CQ) Windows 32
+\t (00:01:40)     Journal start - Wed Jul 17 09:23:10 2019
+\t (00:01:40)         Host=USER-PC User=user Pid=10148 CPUs=4
+\t (00:01:40) CmdLine= allegro.exe -p .
+\t (00:01:40) 
+\t (00:01:40) Starting new design...
+\i (00:01:40) trapsize 1442
+\i (00:01:40) trapsize 1415
+\i (00:01:40) trapsize 1442
+\i (00:01:41) trapsize 1812
+\i (00:01:41) trapsize 2685
+\i (00:01:41) trapsize 2685
+\i (00:01:41) package symbol wizard 
+\i (00:01:41) generaledit 
+   (00:01:44) Loading cmds.cxt 
+   (00:01:44) Loading axlcore.cxt 
+\i (00:01:44) setwindow form.sym_wizard
+\i (00:01:44) FORM sym_wizard bga YES 
+\i (00:01:46) FORM sym_wizard wiz_next  
+\i (00:01:47) FORM sym_wizard load_template  
+\t (00:01:47) Opening existing design...
+\i (00:01:48) fillin yes 
+\t (00:01:49) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:01:49) setwindow pcb
+\i (00:01:49) trapsize 211
+\d (00:01:49) Design opened: C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:01:50) setwindow form.sym_wizard
+\i (00:01:50) FORM sym_wizard wiz_next  
+\i (00:01:53) FORM sym_wizard pack_units Millimeter 
+\i (00:01:55) FORM sym_wizard pack_units_create Millimeter 
+\i (00:01:57) FORM sym_wizard wiz_next  
+\i (00:02:22) FORM sym_wizard bga_md 16 
+\i (00:02:42) FORM sym_wizard bga_me 16 
+\i (00:02:42) FORM sym_wizard wiz_next  
+\i (00:02:56) FORM sym_wizard wiz_next  
+\i (00:03:35) FORM sym_wizard pga_width 17.000 
+\i (00:04:24) FORM sym_wizard pga_len 17.000 
+\i (00:04:38) FORM sym_wizard pga_ev 1.000 
+\i (00:04:56) FORM sym_wizard pga_ev 0.500 
+\i (00:05:08) FORM sym_wizard pga_eh 1.000 
+\i (00:05:13) FORM sym_wizard pga_ev 1.000 
+\i (00:05:14) FORM sym_wizard wiz_next  
+\i (00:05:17) FORM sym_wizard default_pad_browse  
+\i (00:05:35) fillin "Bgapad"
+\i (00:05:36) FORM sym_wizard wiz_next  
+\i (00:05:38) FORM sym_wizard wiz_next  
+\i (00:05:39) FORM sym_wizard wiz_finish  
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:05:39) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:05:39) setwindow pcb
+\i (00:05:39) trapsize 5371
+\t (00:05:39) Performing DRC...
+\t (00:05:39) No DRC errors detected.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:05:39) trapsize 5371
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:05:39) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\i (00:05:39) trapsize 758
+\i (00:05:39) trapsize 152
+\i (00:05:39) trapsize 152
+\t (00:05:39) Creating package symbol 'C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.psm'.
+\t (00:05:39) Starting Create symbol...
+\i (00:05:42) generaledit 
+\i (00:05:44) zoom out 1 
+\i (00:05:44) setwindow pcb
+\i (00:05:44) zoom out 9.946 -4.947
+\i (00:05:44) trapsize 317
+\i (00:05:45) zoom in 1 
+\i (00:05:45) setwindow pcb
+\i (00:05:45) zoom in 15.070 -12.560
+\i (00:05:45) trapsize 159
+\i (00:05:47) roam y -96 
+\i (00:05:47) roam y -96
+\i (00:05:47) roam y -96 
+\i (00:05:47) roam y -96
+\i (00:05:49) setwindow form.vf_vis
+\i (00:05:49) FORM vf_vis all_all_visible YES 
+\i (00:05:50) FORM vf_vis all_all_visible NO 
+\i (00:05:51) FORM vf_vis all_all_visible YES 
+\i (00:05:53) setwindow form.mini
+\i (00:05:53) FORM mini subclass SILKSCREEN_TOP 
+\i (00:05:56) setwindow pcb
+\i (00:05:56) pick grid 18.006 0.222
+\t (00:05:56) last pick:  17.780 0.000
+\i (00:06:00) new 
+\e (00:06:00) Do you want to save the changes you made to C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.dra?
+\i (00:06:01) fillin yes 
+\t (00:06:02) Symbol 'pbga256.psm' created.
+\i (00:06:19) newdrawfillin "pbga256.dra" "Package Symbol (Wizard)"
+\t (00:06:19) Starting new design...
+\i (00:06:19) trapsize 317
+\i (00:06:19) trapsize 317
+\i (00:06:19) package symbol wizard 
+\i (00:06:19) generaledit 
+\i (00:06:21) setwindow form.sym_wizard
+\i (00:06:21) FORM sym_wizard bga YES 
+\i (00:06:24) FORM sym_wizard wiz_next  
+\i (00:06:25) FORM sym_wizard load_template  
+\t (00:06:25) Opening existing design...
+\i (00:06:27) fillin yes 
+\t (00:06:27) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:06:27) setwindow pcb
+\i (00:06:27) trapsize 211
+\d (00:06:27) Design opened: C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:06:28) setwindow form.sym_wizard
+\i (00:06:28) FORM sym_wizard wiz_next  
+\i (00:06:31) FORM sym_wizard pack_units Millimeter 
+\i (00:06:32) FORM sym_wizard pack_units_create Millimeter 
+\i (00:06:34) FORM sym_wizard wiz_next  
+\i (00:06:36) FORM sym_wizard bga_md 16 
+\i (00:06:38) FORM sym_wizard bga_me 16 
+\i (00:06:38) FORM sym_wizard pin_circumference YES 
+\i (00:06:40) FORM sym_wizard pin_grid YES 
+\i (00:06:46) FORM sym_wizard wiz_next  
+\i (00:06:48) FORM sym_wizard pin_number_zero_pad YES 
+\i (00:06:50) FORM sym_wizard pin_number_zero_pad NO 
+\i (00:09:19) FORM sym_wizard wiz_next  
+\i (00:09:22) FORM sym_wizard pga_ev 1.000 
+\i (00:09:25) FORM sym_wizard pga_eh 1.000 
+\i (00:09:35) FORM sym_wizard pga_width 17.000 
+\i (00:09:37) FORM sym_wizard pga_len 17.000 
+\i (00:09:37) FORM sym_wizard wiz_next  
+\i (00:09:38) FORM sym_wizard default_pad_browse  
+\t (00:10:36) No valid name selected.
+\t (00:10:41) No valid name selected.
+\i (00:16:45) fillin "60C85c35d"
+\i (00:16:46) FORM sym_wizard wiz_next  
+\i (00:16:47) FORM sym_wizard wiz_next  
+\i (00:16:48) FORM sym_wizard wiz_finish  
+\w (00:16:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:16:48) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:16:48) setwindow pcb
+\i (00:16:48) trapsize 5371
+\t (00:16:48) Performing DRC...
+\t (00:16:48) No DRC errors detected.
+\w (00:16:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:16:48) trapsize 5371
+\i (00:16:48) trapsize 758
+\i (00:16:48) trapsize 152
+\i (00:16:48) trapsize 152
+\i (00:16:51) fillin yes 
+\i (00:16:52) fillin yes 
+\t (00:16:52) Creating package symbol 'C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.psm'.
+\t (00:16:52) Starting Create symbol...
+\i (00:16:53) generaledit 
+\i (00:16:59) new 
+\e (00:16:59) Do you want to save the changes you made to C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.dra?
+\i (00:17:00) fillin yes 
+\t (00:17:01) Symbol 'pbga256.psm' created.
+\i (00:17:22) newdrawfillin "pbga256.dra" "Package Symbol (Wizard)"
+\t (00:17:22) Starting new design...
+\i (00:17:22) trapsize 317
+\i (00:17:22) trapsize 317
+\i (00:17:22) package symbol wizard 
+\i (00:17:22) generaledit 
+\i (00:17:25) setwindow form.sym_wizard
+\i (00:17:25) FORM sym_wizard bga YES 
+\i (00:17:26) FORM sym_wizard wiz_next  
+\i (00:17:27) FORM sym_wizard load_template  
+\t (00:17:27) Opening existing design...
+\i (00:17:28) fillin yes 
+\t (00:17:28) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:17:28) setwindow pcb
+\i (00:17:28) trapsize 211
+\d (00:17:28) Design opened: C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:17:29) setwindow form.sym_wizard
+\i (00:17:29) FORM sym_wizard wiz_next  
+\i (00:17:30) FORM sym_wizard pack_units Millimeter 
+\i (00:17:31) FORM sym_wizard pack_units_create Millimeter 
+\i (00:17:32) FORM sym_wizard wiz_next  
+\i (00:17:34) FORM sym_wizard bga_md 16 
+\i (00:17:37) FORM sym_wizard bga_me 16 
+\i (00:17:37) FORM sym_wizard wiz_next  
+\i (00:17:39) FORM sym_wizard wiz_next  
+\i (00:17:42) FORM sym_wizard pga_ev 1.000 
+\i (00:17:45) FORM sym_wizard pga_eh 1.000 
+\i (00:17:49) FORM sym_wizard pga_width 17.000 
+\i (00:17:52) FORM sym_wizard pga_len 17.000 
+\i (00:17:52) FORM sym_wizard wiz_next  
+\i (00:17:53) FORM sym_wizard default_pad_browse  
+\i (00:21:10) fillin "Pad35cir21d"
+\i (00:21:12) FORM sym_wizard wiz_next  
+\i (00:21:13) FORM sym_wizard wiz_next  
+\i (00:21:14) FORM sym_wizard wiz_finish  
+\w (00:21:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:21:14) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:21:14) setwindow pcb
+\i (00:21:14) trapsize 5371
+\t (00:21:14) Performing DRC...
+\t (00:21:14) No DRC errors detected.
+\w (00:21:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:21:14) trapsize 5371
+\i (00:21:14) trapsize 758
+\i (00:21:14) trapsize 152
+\i (00:21:14) trapsize 152
+\i (00:21:16) fillin no 
+\i (00:21:18) fillin "menu_cancel"
+\i (00:21:19) fillin yes 
+\t (00:21:19) Creating package symbol 'C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.psm'.
+\t (00:21:19) Starting Create symbol...
+\i (00:21:20) generaledit 
+\i (00:21:25) zoom in 1 
+\i (00:21:25) setwindow pcb
+\i (00:21:25) zoom in 7.247 0.239
+\i (00:21:25) trapsize 76
+\i (00:21:25) zoom in 1 
+\i (00:21:25) setwindow pcb
+\i (00:21:25) zoom in 7.247 0.239
+\i (00:21:25) trapsize 38
+\i (00:21:26) zoom in 1 
+\i (00:21:26) setwindow pcb
+\i (00:21:26) zoom in 7.248 0.240
+\i (00:21:26) trapsize 19
+\i (00:21:30) zoom out 1 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) zoom out 7.270 0.255
+\i (00:21:30) trapsize 38
+\i (00:21:30) zoom out 1 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) zoom out 7.271 0.255
+\i (00:21:30) trapsize 76
+\i (00:21:30) zoom out 1 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) zoom out 7.271 0.255
+\i (00:21:30) trapsize 152
+\i (00:21:30) zoom out 1 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) zoom out 7.271 0.255
+\i (00:21:30) trapsize 317
+\i (00:21:30) zoom out 1 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) zoom out 9.551 -1.459
+\i (00:21:30) trapsize 317
+\i (00:21:30) zoom out 1 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) zoom out 9.551 -1.459
+\i (00:21:30) trapsize 317
+\i (00:21:30) zoom out 1 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) zoom out 9.551 -1.459
+\i (00:21:30) trapsize 317
+\i (00:21:33) new 
+\e (00:21:33) Do you want to save the changes you made to pbga256.dra?
+\i (00:21:34) fillin yes 
+\t (00:21:35) Symbol 'pbga256.psm' created.
+\i (00:21:45) newdrawfillin "pbga256.dra" "Package Symbol (Wizard)"
+\t (00:21:45) Starting new design...
+\i (00:21:45) trapsize 317
+\i (00:21:45) trapsize 317
+\i (00:21:45) package symbol wizard 
+\i (00:21:45) generaledit 
+\i (00:21:47) setwindow form.sym_wizard
+\i (00:21:47) FORM sym_wizard bga YES 
+\i (00:21:47) FORM sym_wizard wiz_next  
+\i (00:21:48) FORM sym_wizard load_template  
+\t (00:21:48) Opening existing design...
+\i (00:21:49) fillin yes 
+\t (00:21:49) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:21:49) setwindow pcb
+\i (00:21:49) trapsize 211
+\d (00:21:49) Design opened: C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:21:50) setwindow form.sym_wizard
+\i (00:21:50) FORM sym_wizard wiz_next  
+\i (00:21:52) FORM sym_wizard pack_units Millimeter 
+\i (00:21:53) FORM sym_wizard pack_units_create Millimeter 
+\i (00:21:54) FORM sym_wizard wiz_next  
+\i (00:21:56) FORM sym_wizard bga_md 16 
+\i (00:21:58) FORM sym_wizard bga_me 16 
+\i (00:21:58) FORM sym_wizard wiz_next  
+\i (00:21:59) FORM sym_wizard wiz_next  
+\i (00:22:03) FORM sym_wizard pga_ev 1.000 
+\i (00:22:05) FORM sym_wizard pga_eh 1.000 
+\i (00:22:07) FORM sym_wizard pga_width 17.000 
+\i (00:22:15) FORM sym_wizard pga_len 17.000 
+\i (00:22:15) FORM sym_wizard wiz_next  
+\i (00:22:18) FORM sym_wizard default_pad_browse  
+\i (00:23:05) fillin "Pad43cir33d"
+\i (00:23:06) FORM sym_wizard wiz_next  
+\i (00:23:07) FORM sym_wizard wiz_next  
+\i (00:23:07) FORM sym_wizard wiz_finish  
+\w (00:23:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:23:07) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:23:07) setwindow pcb
+\i (00:23:07) trapsize 5371
+\t (00:23:07) Performing DRC...
+\t (00:23:07) No DRC errors detected.
+\w (00:23:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:23:07) trapsize 5371
+\i (00:23:07) trapsize 758
+\i (00:23:07) trapsize 152
+\i (00:23:07) trapsize 152
+\i (00:23:10) fillin yes 
+\i (00:23:11) fillin yes 
+\t (00:23:11) Creating package symbol 'C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.psm'.
+\t (00:23:11) Starting Create symbol...
+\i (00:23:12) generaledit 
+\i (00:23:14) delete 
+\i (00:23:15) pick grid -7.767 7.517
+\t (00:23:15) last pick:  -7.620 7.620
+\t (00:23:15) Pin "Pad43cir33d, A1"
+\i (00:23:15) drag_start grid -9.101 8.943
+\i (00:23:16) drag_stop 10.096 -9.224
+\i (00:23:17) delete 
+\i (00:23:20) drag_start grid 8.641 1.634
+\i (00:23:20) drag_stop 15.464 -1.126
+\t (00:23:20) Text "U*"
+\i (00:23:21) delete 
+\i (00:23:22) delete 
+\i (00:23:22) drag_start grid -5.796 4.272
+\i (00:23:23) drag_stop 6.032 -2.400
+\i (00:23:25) new 
+\e (00:23:25) Do you want to save the changes you made to C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.dra?
+\i (00:23:27) fillin yes 
+\e (00:23:27) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:23:33) newdrawfillin "menu_cancel"
+\i (00:23:33) generaledit 
+\i (00:23:33) exit 
+\e (00:23:33) Do you want to save the changes you made to C:/Users/user/Desktop/work/pcb_lib/psm/pbga256.dra?
+\i (00:23:35) fillin no 
+\t (00:23:35)     Journal end - Wed Jul 17 09:45:06 2019
