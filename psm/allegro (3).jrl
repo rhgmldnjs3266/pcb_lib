@@ -1,0 +1,95 @@
+\t (00:00:03) allegro 16.6 S034 (v16-6-112CQ) Windows 32
+\t (00:00:03)     Journal start - Wed Jul 17 10:33:10 2019
+\t (00:00:03)         Host=USER-PC User=user Pid=8788 CPUs=4
+\t (00:00:03) CmdLine= allegro.exe -p .
+\t (00:00:03) 
+   (00:00:03) ilinit Start.
+   (00:00:03) "C:/Users/user/Desktop/vscode_orcad/home/pcbenv"
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 1627
+\i (00:00:04) trapsize 1598
+\i (00:00:04) trapsize 1632
+\i (00:00:05) trapsize 1442
+\i (00:00:05) trapsize 2685
+\i (00:00:05) generaledit 
+\i (00:00:07) new 
+\i (00:00:54) newdrawfillin "pbga256_nongnd.dra" "Package Symbol (Wizard)"
+\t (00:00:54) Starting new design...
+\i (00:00:54) trapsize 1442
+\i (00:00:55) trapsize 1415
+\i (00:00:55) trapsize 1442
+\i (00:00:55) trapsize 1812
+\i (00:00:55) trapsize 2685
+\i (00:00:55) trapsize 2685
+\i (00:00:55) package symbol wizard 
+\i (00:00:56) generaledit 
+   (00:00:57) Loading cmds.cxt 
+   (00:00:57) Loading axlcore.cxt 
+\i (00:00:57) setwindow form.sym_wizard
+\i (00:00:57) FORM sym_wizard bga YES 
+\i (00:00:57) FORM sym_wizard wiz_next  
+\i (00:00:58) FORM sym_wizard load_template  
+\t (00:00:58) Opening existing design...
+\i (00:00:59) fillin yes 
+\t (00:00:59) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:00:59) setwindow pcb
+\i (00:00:59) trapsize 211
+\d (00:00:59) Design opened: C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:01:00) setwindow form.sym_wizard
+\i (00:01:00) FORM sym_wizard wiz_next  
+\i (00:01:01) FORM sym_wizard pack_units Millimeter 
+\i (00:01:03) FORM sym_wizard pack_units_create Millimeter 
+\i (00:01:04) FORM sym_wizard wiz_next  
+\i (00:01:07) FORM sym_wizard bga_md 20 
+\i (00:01:09) FORM sym_wizard bga_me 20 
+\i (00:01:09) FORM sym_wizard pin_circumference YES 
+\i (00:01:10) FORM sym_wizard pin_circ_outer_levels 4 
+\i (00:01:11) FORM sym_wizard pin_circ_inner_levels 0 
+\i (00:01:12) FORM sym_wizard wiz_next  
+\i (00:01:13) FORM sym_wizard wiz_next  
+\i (00:01:18) FORM sym_wizard pga_ev 1.270 
+\i (00:01:21) FORM sym_wizard pga_eh 1.270 
+\i (00:01:37) FORM sym_wizard pga_width 27.000 
+\i (00:01:44) FORM sym_wizard pga_len 27.200 
+\i (00:01:46) FORM sym_wizard pga_width 27.200 
+\i (00:01:47) FORM sym_wizard wiz_next  
+\i (00:01:47) FORM sym_wizard default_pad_browse  
+\t (00:01:49) No valid name selected.
+\i (00:01:51) fillin "My_Bga256_060"
+\i (00:01:52) FORM sym_wizard wiz_next  
+\i (00:01:53) FORM sym_wizard wiz_next  
+\i (00:01:54) FORM sym_wizard wiz_finish  
+\w (00:01:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:54) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:01:54) setwindow pcb
+\i (00:01:54) trapsize 5371
+\t (00:01:54) Performing DRC...
+\t (00:01:54) No DRC errors detected.
+\i (00:01:54) trapsize 5371
+\i (00:01:54) trapsize 1516
+\i (00:01:54) trapsize 303
+\i (00:01:54) trapsize 303
+\t (00:01:54) Creating package symbol 'c:/Users/user/Desktop/work/pcb_lib/pbga256_nongnd.psm'.
+\t (00:01:54) Starting Create symbol...
+\i (00:01:55) generaledit 
+\i (00:01:58) prmed 
+\i (00:01:59) setwindow form.prmedit
+\i (00:01:59) FORM prmedit display_plated_holes YES 
+\i (00:01:59) FORM prmedit display_non_plated_holes YES 
+\i (00:02:00) FORM prmedit display_enhance YES 
+\i (00:02:00) FORM prmedit display_endcaps YES 
+\i (00:02:01) FORM prmedit display_thermal YES 
+\i (00:02:01) FORM prmedit display_fat_rats YES 
+\i (00:02:01) FORM prmedit waived_drc_on YES 
+\i (00:02:02) FORM prmedit via_labels YES 
+\i (00:02:02) FORM prmedit dp_driver_pins YES 
+\i (00:02:03) FORM prmedit secondary_step_model YES 
+\i (00:02:05) FORM prmedit done  
+\i (00:02:05) setwindow pcb
+\i (00:02:05) generaledit 
+\i (00:02:13) save 
+\i (00:02:14) fillin yes 
+\t (00:02:14) Symbol 'pbga256_nongnd.psm' created.
+\i (00:02:15) generaledit 
+\i (00:11:33) exit 
+\t (00:11:33)     Journal end - Wed Jul 17 10:44:40 2019
